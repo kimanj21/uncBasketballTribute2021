@@ -1,0 +1,27 @@
+.achievements {
+  padding: 2em;
+}
+
+.achievements_text {
+  width: 100%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 2em;
+  border-radius: 0.2em;
+  background-color: #13294B;
+  color: white;
+  font-size: 24px;
+}
+
+.achievements_text p {
+  line-height: 1.6;
+}
+
+.title {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #4B9CD3;
+}
+
+.tab { text-indent: 40px; }

@@ -1,0 +1,81 @@
+.main{
+  margin: 0 auto;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  background-color: #4b9cd3;
+  color: white;
+  align-items: center;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.intro p {
+  font-size: 20px;
+}
+h1{
+  text-align: center;
+}
+
+
+
+p{
+  display: flex;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoe-wall{
+  width: 80%;
+  height: 600px;
+}
+
+
+
+
+
+
+h2{
+  text-align: center;
+}
+
+.jordan4{
+  max-width: 300px;
+}
+
+figcaption{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.jordan1{
+  max-width: 300px;
+}
+
+.jordan-converse{
+  max-width: 300px;
+}
+
+.jordan5{
+  max-width: 300px;
+}
+
+.players{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.sneakers{
+  text-align: center;
+  margin: 1rem;
+}
+
+.coach-top-5{
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+h1{
+  padding: 10px;
+}
+
+.row {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+.col-lg-4{
+  margin-bottom: 2em;
+}
+
+.row1{
+  background: #13294b;
+}
+
+.card-body{
+  background: #4b9cd3;
+  color: white;
+}
+
+.card-title {
+  margin-top: 0.5em;
+}

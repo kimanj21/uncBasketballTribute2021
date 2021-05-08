@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="allStyle.css">
+  <link rel="stylesheet" href="indexStyle.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <title>UNC Basketball</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-light navbar-1 white">
+
+    <!-- Navbar brand -->
+    <div class='logoSection'>
+      <img id='logo' src='logo.png'>
+    </div>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15"
+      aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="player.html">Top 10</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="rivalry.html">Rivalries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shoe.html">Shoes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="achieve.html">Achievements</a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+
+  <div class='main'>
+    <div class='mainTop'>
+      <div class='intro'>
+        <h2>Introduction</h2>
+        <p>
+          The North Carolina Tar Heels Men's basketball program is the intercollegiate basketball team of the University of North Carolina at Chapel Hill. 
+          The Tar Heels have won seven men's basketball national championships (1924, 1957, 1982, 1993, 2005, 2009, and 2017). 
+          North Carolina's six NCAA Tournament Championships are third-most all-time, behind UCLA and Kentucky. 
+          UNC has also won 18 Atlantic Coast Conference tournament titles,[2] 32 Atlantic Coast Conference regular season titles,[3] and an Atlantic Coast Conference record 21 outright regular season championships.
+          The program has produced many notable players who went on to play in the NBA, including four of ESPN's top 74 players of all-time: Michael Jordan, James Worthy, Vince Carter, and Bob McAdoo (tied for most with UCLA and Georgetown).
+          Many Tar Heel assistant coaches and players have gone on to become head coaches elsewhere.
+          From the Tar Heels' first season in 1910–11 through the 2020-21 season, the program has amassed a .734 all-time winning percentage (second highest all-time), winning 2,293 games and losing 829 games in 111 seasons.
+        </p>
+      </div>
+      <div class='rightPictures'>
+        <img id='topPic' src='indexImages/uncBasketball.jpg' alt="Basketball"> 
+        <img id='bottomPic' src='indexImages/introTopLeft.jpeg' alt="Playtek"> 
+      </div>
+    </div>
+    <div class='mainBottom'>
+      <!--
+        <iframe src="https://youtu.be/985fzw77YrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      -->
+      <iframe src="https://www.youtube.com/embed/985fzw77YrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      
+    </div>
+  </div>
+
+  <div class='footer'>
+    <div class='logoFooterSection'>
+      <img id='logoFoooter' src='logo.png' width="125" height="125">
+    </div>
+    <div class='socialMedias'>
+      <a href="https://www.facebook.com/UNCBasketball/"><i class="fab fa-facebook fa-3x"></i></a>
+      <a href="https://www.instagram.com/accounts/login/"><i class="fab fa-instagram fa-3x"></i></a>
+      <a href="https://twitter.com/UNC_Basketball?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter fa-3x"></i></a>
+    </div>
+  </div>
+
+  <!-- NECESSARY <script> LINKS. The three <script> links below add jQuery, popper.js, and Bootstrap 4 JavaScript. These are libraries of scripts that are necessary to make Bootstrap's interactive and animated components work (e.g., dropdown menus, buttons, alerts, carousels, collapsing navbars and content areas, modals, popups, tooltips, etc). These three <script> links MUST appear in THIS ORDER; this is because both popper.js and the Bootstrap scripts rely on jQuery to work, so jQuery must load into your page first. We add these links at the bottom of the <body> element instead of in the <head> element so the scripts won't be loaded into your site until they're needed, which helps with your site's speed and functionality. -->
+
+  <!-- jQuery--this must come first! -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!-- popper.js--a library of drop-down and pop-up JavaScript scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+  <!-- unique Bootstrap 4 JavaScript scripts -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
